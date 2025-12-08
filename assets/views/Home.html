@@ -22,38 +22,56 @@
   <body>
     <nav>
       <div class="container-nav">
-        <a class="navbar-brand" href="#">
-          <img src="../images/logo.png" alt="" class="logo-img" />
-          <strong>Hệ thống quản lý</strong>
-        </a>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <div class="navigation">
+          <a class="navbar-brand" href="#">
+            <img src="../images/logo.png" alt="" class="logo-img" />
+            <strong>Hệ thống quản lý</strong>
+          </a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Trang chủ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"
+                >Quản lý <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <ul class="sub-nav">
+                <li class="sub-item">
+                  <a class="sub-link" href="#">Quản lý tài khoản</a>
+                </li>
+                <li class="sub-item">
+                  <a class="sub-link" href="#">Quản lý thiết bị</a>
+                </li>
+                <li class="sub-item">
+                  <a class="sub-link" href="#">Quản lý Camera</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">More</a>
+            </li>
+          </ul>
+        </div>
+
         <div class="account">
           <span>
             <i class="fa-solid fa-user"></i>
-            Xin chào, Admin
+            Xin chào, <strong>Admin</strong>
           </span>
-          <a href="">Thoát</a>
+          <a href="" class="logout">Thoát</a>
         </div>
       </div>
     </nav>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+    <div class="container-content">
+      <div class="content">
+        <img src="../images/welcome.png" alt="" class="welcome-img" />
+        <h1>Chào mừng bạn đến với hệ thống quản lý!</h1>
+        <p>
+          Chúc bạn có ngày làm việc hiệu quả
+          <i class="fa-solid fa-seedling"></i>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
