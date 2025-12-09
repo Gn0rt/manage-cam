@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.min.css"
+    />
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://cdn.datatables.net/2.0.7/js/dataTables.min.js"
+    ></script>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/account.css" />
+    <title>Device</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container-nav">
+        <div class="navigation">
+          <a class="navbar-brand" href="#">
+            <img src="../images/logo.png" alt="" class="logo-img" />
+            <strong>Hệ thống quản lý</strong>
+          </a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Trang chủ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"
+                >Quản lý <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <ul class="sub-nav">
+                <li class="sub-item">
+                  <a class="sub-link" href="#">Quản lý tài khoản</a>
+                </li>
+                <li class="sub-item">
+                  <a class="sub-link" href="#">Quản lý thiết bị</a>
+                </li>
+                <li class="sub-item">
+                  <a class="sub-link" href="#">Quản lý Camera</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">More</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="account">
+          <span>
+            <i class="fa-solid fa-user"></i>
+            Xin chào, <strong>Admin</strong>
+          </span>
+          <a href="" class="logout">Thoát</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-content">
+      <div class="container-head">
+        <h2>
+          <i class="fa-solid fa-clipboard-user"></i>
+          Quản lý thiết bị
+        </h2>
+        <div class="search-box">
+          <form class="search" id="form-search">
+            <input type="text" id="searchValue" />
+            <button class="btn btn-primary" id="searchBtn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              Tìm kiếm
+            </button>
+          </form>
+          <button class="btn btn-primary" id="addAccountBtn">
+            <i class="fa-solid fa-plus"></i> Thêm thiết bị
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <table id="deviceDataTable" class="table table-bordered">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Tên thiết bị</th>
+              <th>MAC</th>
+              <th>SDT TK</th>
+              <th>Email TK</th>
+              <th>Số lượng TK quản lý</th>
+              <th>Thời gian khởi tạo</th>
+              <th>Thao tác</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script type="module" src="../js/datatable.js"></script>
+  </body>
+</html>
