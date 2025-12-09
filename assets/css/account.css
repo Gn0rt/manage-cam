@@ -1,0 +1,85 @@
+.container-head {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.container-head h2 {
+    background: linear-gradient(to right, #3b5a79, #66809e, #3d5983);
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.search-box {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#searchValue {
+    padding: 5px;
+    outline: none;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#searchBtn,
+#addAccountBtn {
+    background-color: #3b5a79;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#searchBtn:hover,
+#addAccountBtn:hover {
+    background-color: #2c3e50;
+}
+
+.table thead tr th,
+.table tbody tr td {
+    text-align: center;
+}
+
+.btn-delete,
+.btn-edit {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+}
+
+.dt-center {
+    text-align: center !important;
+}
+
+.content {
+    padding: 10px;
+}
+
+#myDataTable {
+    width: 100%;
+}
