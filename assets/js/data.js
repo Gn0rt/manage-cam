@@ -89,6 +89,51 @@ export const datas = [
     created_at: "2024-01-01 10:00:00",
     device_count: 5,
   },
+  {
+    id: 11,
+    account_name: "user5",
+    email: "abc@gmail.com",
+    phone: "0123456789",
+    address: "An Khánh, Hà Nội",
+    created_at: "2024-01-01 10:00:00",
+    device_count: 5,
+  },
+  {
+    id: 12,
+    account_name: "user5",
+    email: "abc@gmail.com",
+    phone: "0123456789",
+    address: "An Khánh, Hà Nội",
+    created_at: "2024-01-01 10:00:00",
+    device_count: 5,
+  },
+  {
+    id: 13,
+    account_name: "user5",
+    email: "abc@gmail.com",
+    phone: "0123456789",
+    address: "An Khánh, Hà Nội",
+    created_at: "2024-01-01 10:00:00",
+    device_count: 5,
+  },
+  {
+    id: 14,
+    account_name: "user5",
+    email: "abc@gmail.com",
+    phone: "0123456789",
+    address: "An Khánh, Hà Nội",
+    created_at: "2024-01-01 10:00:00",
+    device_count: 5,
+  },
+  {
+    id: 15,
+    account_name: "user5",
+    email: "abc@gmail.com",
+    phone: "0123456789",
+    address: "An Khánh, Hà Nội",
+    created_at: "2024-01-01 10:00:00",
+    device_count: 5,
+  },
 ];
 
 export const devices = [
@@ -136,5 +181,37 @@ export const devices = [
     emailTK: "email@gmai.com",
     created_at: "2024-01-01 10:00:00",
     countTK: 3,
+  },
+];
+export const cameras = [
+  {
+    id: 1,
+    mac: "00:1A:2B:3C:4D:5E",
+    imei: "123456789012345",
+    created_at: "2024-01-01 10:00:00",
+  },
+  {
+    id: 2,
+    mac: "00:1A:2B:3C:4D:5E",
+    imei: "123456789012345",
+    created_at: "2024-01-01 10:00:00",
+  },
+  {
+    id: 3,
+    mac: "00:1A:2B:3C:4D:5E",
+    imei: "123456789012345",
+    created_at: "2024-01-01 10:00:00",
+  },
+  {
+    id: 4,
+    mac: "00:1A:2B:3C:4D:5E",
+    imei: "123456789012345",
+    created_at: "2024-01-01 10:00:00",
+  },
+  {
+    id: 5,
+    mac: "00:1A:2B:3C:4D:5E",
+    imei: "123456789012345",
+    created_at: "2024-01-01 10:00:00",
   },
 ];
